@@ -4,20 +4,12 @@
 const realNumberArray = [4, 5.6, -9.8, 3.14, 42, 6, 8.34, -2];
 const squareList = (arr) => {
     "use strict";
-    // change code below this line
     const integersArray = arr.filter((member) => member % 1 == 0 && member > 0);
-    //console.log(integersArray);
     const squared = integersArray.map((memberInt) => memberInt ** 2);
-    //console.log(squaredIntegers);
-    // change code above this line
-    //return squaredIntegers;
     return squared;
 };
-// test your code
 const squaredIntegers = squareList(realNumberArray);
 console.log(squaredIntegers);
-////////////////////////////////////////////
-// new task
 ////////////////////////////////////////////////////////// default function  parametr
 const defParam = (function() {
     return function defParam(num, value = 1) {
@@ -34,8 +26,7 @@ const sum = (function() {
     };
 })();
 console.log(sum(1, 2, 3)); // 6
-///////////////////////////////////////////////////////////// spread operator/
-/////////////////////////////////////////////////////////////array copy
+///////////////////////////////////////////////////////////// spread operator/array copy
 const arr1 = ['JAN', 'FEB', 'MAR', 'APR', 'MAY'];
 let arr2;
 (function() {
@@ -48,30 +39,22 @@ const AVG_TEMPERATURES = {
     today: 77.5,
     tomorrow: 79
 };
-
 function getTempOfTmrw(avgTemperatures) {
     "use strict";
-    // change code below this line
     const { tomorrow: tempOfTomorrow } = avgTemperatures; // change this line
-    // change code above this line
     return tempOfTomorrow;
 }
-
 console.log(getTempOfTmrw(AVG_TEMPERATURES)); // should be 79
 //////////////////////////////////////////////////////////// distructing assignment for nasted object
 const LOCAL_FORECAST = {
     today: { min: 72, max: 83 },
     tomorrow: { min: 73.3, max: 84.6 }
 };
-
 function getMaxOfTmrw(forecast) {
     "use strict";
-    // change code below this line
-    const { tomorrow: { max: maxOfTomorrow } } = forecast; // change this line
-    // change code above this line
+    const { tomorrow: { max: maxOfTomorrow } } = forecast;
     return maxOfTomorrow;
 }
-
 console.log(getMaxOfTmrw(LOCAL_FORECAST)); // should be 84.6
 ///////////////////////////////////////////////////////its COOL!!!! destruction ES6 !!! change varisabes
 let a = 8,
@@ -114,15 +97,10 @@ const stats = {
     average: 35.85
 };
 const half = (function() {
-    "use strict"; // do not change this line
-
-    // change code below this line
+    "use strict";
     return function half({ max, min }) {
-        // use function argument destructuring
         return (stats.max + stats.min) / 2.0;
     };
-    // change code above this line
-
 })();
 console.log(stats); // should be object
 console.log(half(stats)); // should be 28.015
@@ -132,18 +110,13 @@ const result = {
     failure: ["no-var", "var-on-top", "linebreak"],
     skipped: ["id-blacklist", "no-dup-keys"]
 };
-
 function makeList(arr) {
     "use strict";
-
-    // change code below this line
     const resultDisplayArray = [`<li class="text-warning">${arr[0]}</li>`,
         `<li class="text-warning">${arr[1]}</li>`,
         `<li class="text-warning">${arr[2]}</li>
     `
     ];
-    // change code above this line
-
     return resultDisplayArray;
 }
 /**
@@ -156,7 +129,6 @@ const resultDisplayArray = makeList(result.failure);
 ///////////////////////////////////////////////////////////////////////or!!!!!!!!!!!!!!!!! use MAP
 const resultDisplayArray = arr.map(item => `<li class="text-warning">${item}</li>`);
 
-
 //////////////////////////////////////////////////////////////Write Concise Object Literal Declarations Using Simple Fields
 
 const createPerson = (name, age, gender) => {
@@ -168,8 +140,6 @@ const createPerson = (name, age, gender) => {
 console.log(createPerson("Zodiac Hasbro", 56, "male")); // returns a proper object
 
 //////////////////////////////////////////////////////////////////////////ES6: Write Concise Declarative Functions with ES6
-// change code below this line
-// change code below this line
 const bicycle = {
     gear: 2,
     setGear(newGear) {
@@ -177,7 +147,6 @@ const bicycle = {
         this.gear = newGear;
     }
 };
-// change code above this line
 bicycle.setGear(3);
 console.log(bicycle.gear);
 ////////////////////////////////////////////////////////Use class Syntax to Define a Constructor Function
@@ -185,9 +154,7 @@ class Vegetable {
 
     constructor(name) {
         "use strict";
-        /* Alter code below this line */
         this.name = name;
-        /* Alter code above this line */
     }
 }
 //const Vegetable = makeClass();
@@ -220,18 +187,13 @@ class Thermostat {
     constructor(tempStatus) {
         this.temperature = 5 / 9 * (tempStatus - 32);
     }
-
     get tempThermostat() {
         return this.temperature;
     }
-
     set tempThermostat(upTemperature) {
             this.temperature = upTemperature;
         }
-        /* Alter code above this line */
-
 }
-
 const thermos = new Thermostat(76); // setting in Fahrenheit scale
 let temp = thermos.temperature; // 24.44 in C
 thermos.temperature = 26;
