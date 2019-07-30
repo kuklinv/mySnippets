@@ -1,37 +1,33 @@
-let mainUl = document.querySelector('ul[class="tree"]');
+let mainUl = document.querySelector('ul[class=tree]');
 
-// lets bold
+
+// li - очень широкий и открытый за счет вложенности. не понятно где нажимаешь в его строке и получаешь отклик. завернем в него спаны
+let li = mainUl.querySelectorAll('li');
+li.forEach(function (li) {
+    let span = document.createElement('span');
+    li.insertBefore(span, li.firstChild);    // а первый ребенок это текст внутри ли. вставляем в тег <li 'сюда до текста'
+    span.appendChild(span.nextSibling);     // а следующий сосед это тот самый текст в ли. мы его записываем внтрь спана. круто!!!
+});
+
+mainUl.addEventListener('click', function (e) {
+    let target = e.target;
+    if (target.tagName != 'SPAN') {
+        return;
+    }
+    let childrenContainer = target.parentNode.querySelectorAll('ul')[0]; // хитрая проверка на то что спан в ли который в UL
+    if (!childrenContainer) {                                                     // по сути проверка что найденный спан это и есть  список который нужно скрыть
+        return;
+    }
+    childrenContainer.hidden = !childrenContainer.hidden;               // ну а это вооще супер. никаких toggle тебе и все такое
+
+});
+
 mainUl.addEventListener('mouseover', function (e) {
     let target = e.target;
-    target.style.fontWeight = 'bold';
+    target.style.fontWeight ='bold';
 });
 
 mainUl.addEventListener('mouseout', function (e) {
     let target = e.target;
     target.style.fontWeight = 'normal';
 });
-
-//lets "LI" - SPAN
-let treeLis = mainUl.querySelectorAll('li');
-
-for (let i = 0; i < treeLis.length; i++) {
-    let li = treeLis[i];
-
-    let span = document.createElement('span');
-    li.insertBefore(span, li.firstChild);
-    span.appendChild(span.nextSibling);
-}
-// its Listener
-mainUl.onclick = function(event) {
-    let target = event.target;
-
-    if (target.tagName != 'SPAN') {
-        return;
-    }
-
-    let childrenContainer = target.parentNode.getElementsByTagName('ul')[0];
-    if (!childrenContainer) return; // no children
-
-    // wow its toggle
-    childrenContainer.hidden = !childrenContainer.hidden;
-};
