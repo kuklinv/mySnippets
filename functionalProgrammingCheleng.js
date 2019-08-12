@@ -460,9 +460,6 @@ console.log(averageRating.toFixed(3));
 // and variant!!!!!!!!
 var averageRating = watchList.filter(x => x.Director === "Christopher Nolan").map(x => Number(x.imdbRating)).reduce((x1, x2) => x1 + x2) / watchList.filter(x => x.Director === "Christopher Nolan").length;
 
-/////////////////////////////////////////////////end this task
-//
-
 ////////////////////////////////////////////////////// metod SORT
 function alphabeticalOrder(arr) {
   // Add your code below this line

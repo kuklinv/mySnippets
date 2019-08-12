@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4cd2d9c-f097-40fd-bb6d-7cf4b1c4e8a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Collection/matrix€Array.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicAlgorithmScripting.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ES6.js" beforeDir="false" afterPath="$PROJECT_DIR$/ES6.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functionalProgrammingCheleng.js" beforeDir="false" afterPath="$PROJECT_DIR$/functionalProgrammingCheleng.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,17 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ES6.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3666">
-              <caret line="141" column="123" selection-start-line="141" selection-start-column="123" selection-end-line="141" selection-end-column="123" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,6 +33,7 @@
         <option value="$PROJECT_DIR$/DOM/parsingObjectToUL_LI.js" />
         <option value="$PROJECT_DIR$/Collection/matrix€Array.js" />
         <option value="$PROJECT_DIR$/ES6.js" />
+        <option value="$PROJECT_DIR$/functionalProgrammingCheleng.js" />
       </list>
     </option>
   </component>
@@ -77,9 +65,10 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JSRU/js280619" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -104,18 +93,18 @@
       <option name="presentableId" value="Default" />
       <updated>1563855456070</updated>
       <workItem from="1563855458786" duration="683000" />
-      <workItem from="1563873950493" duration="2490000" />
+      <workItem from="1563873950493" duration="2796000" />
+      <workItem from="1563936828295" duration="1497000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3173000" />
+    <option name="totallyTimeSpent" value="4976000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973601" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22333686" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -154,10 +143,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ES6.js">
+    <entry file="file://$PROJECT_DIR$/ES6_Arr_Obj_fun.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3666">
           <caret line="141" column="123" selection-start-line="141" selection-start-column="123" selection-end-line="141" selection-end-column="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functionalProgrammingCheleng.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1698">
+          <caret line="461" selection-start-line="461" selection-end-line="461" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intermediateAlgorithmScriptingChallenges.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2010">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introductionToJavaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6474" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regExp.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ObjectsOrientedProgramming.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3900">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
