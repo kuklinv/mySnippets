@@ -1,15 +1,13 @@
-function work(a, b) {
+function f(a, b) {
     console.log( a + b ); // произвольная функция или метод
 }
-
-work = spy(work);
-
-function spy (work) {
-    wrapper.calls = [];
+work = spy(f);
+function spy (f) {
     function wrapper (...arg) {
         wrapper.calls.push(arg);
-        return  spy.apply(this, arguments);
+        return  f.apply(this, arguments);
     }
+    wrapper.calls = [];
     return wrapper;
 }
 
