@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4cd2d9c-f097-40fd-bb6d-7cf4b1c4e8a5" name="Default Changelist" comment="" />
+    <list default="true" id="c4cd2d9c-f097-40fd-bb6d-7cf4b1c4e8a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Collection/uniq.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,12 +20,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="24" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
   </component>
   <component name="ProjectId" id="1PJ63qHRX0fOLf3rxIxsk6Rnc9u" />
   <component name="PropertiesComponent">
@@ -63,6 +60,10 @@
       <workItem from="1565685647478" duration="89000" />
       <workItem from="1565690937171" duration="117000" />
       <workItem from="1565692075136" duration="79000" />
+      <workItem from="1565775697446" duration="1298000" />
+      <workItem from="1566969748114" duration="70000" />
+      <workItem from="1566970090270" duration="162000" />
+      <workItem from="1566970679061" duration="3859000" />
     </task>
     <servers />
   </component>
