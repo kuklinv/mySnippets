@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4cd2d9c-f097-40fd-bb6d-7cf4b1c4e8a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Instruments/lasyLoad/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Instruments/lasyLoad/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Instruments/lasyLoad/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,6 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -25,10 +30,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -62,6 +69,8 @@
       <workItem from="1576189045124" duration="254000" />
       <workItem from="1591872529928" duration="375000" />
       <workItem from="1599782528083" duration="1220000" />
+      <workItem from="1604326423650" duration="37000" />
+      <workItem from="1604415135633" duration="2192000" />
     </task>
     <servers />
   </component>
