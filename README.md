@@ -12,5 +12,6 @@
 * Function
 * HTML
 * Instruments
+* React JS
   ##### ...and common snippets 
   ##### ...and shortcuts for dev instruments: VSC, ZSH, ...etc.

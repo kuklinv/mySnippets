@@ -6,3 +6,5 @@
 ![](https://img.shields.io/github/last-commit/kuklinv/mySnippets?logo=github)
 
 [![](https://img.shields.io/github/commit-activity/y/kuklinv/mySnippets?logo=github)](https://shields.io)
+
+all from [shields.io](http://shields.io/)
